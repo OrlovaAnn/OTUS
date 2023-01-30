@@ -6,7 +6,7 @@ set(PROJECT_VESRION 0.0.${PATCH_VERSION})
 project(helloworld VERSION ${PROJECT_VESRION})
 
 add_subdirectory(
-    "${CMAKE_CURRENT_SOURCE_DIR}/googletest"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../googletest"
     "googletest"
 )
 
@@ -41,9 +41,8 @@ enable_testing()
 
 target_link_libraries(
     test_version PRIVATE
-    gtest gtest_main
+    helloworld gtest gtest_main
 )
-
 
 if (MSVC)
     target_compile_options(helloworld_cli PRIVATE
