@@ -5,11 +5,6 @@ set(PROJECT_VESRION 0.0.${PATCH_VERSION})
 
 project(helloworld VERSION ${PROJECT_VESRION})
 
-#add_subdirectory(
-#    "${CMAKE_CURRENT_SOURCE_DIR}/../googletest"
-#    "googletest"
-#)
-
 configure_file(src/version.h.in src/version.h)
 
 add_executable(helloworld_cli src/main.cpp)

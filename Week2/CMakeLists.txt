@@ -5,11 +5,6 @@ set(PROJECT_VESRION 0.0.${PATCH_VERSION})
 
 project(ip_filter VERSION ${PROJECT_VESRION})
 
-#add_subdirectory(
-#    "${CMAKE_CURRENT_SOURCE_DIR}/../googletest"
-#    "googletest"
-#)
-
 add_executable(ip_filter src/ip_filter.cpp)
 add_library(ip_filter_lib src/lib.cpp)
 add_executable(test_filter test/test.cpp)
