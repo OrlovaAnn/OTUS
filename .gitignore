@@ -125,3 +125,7 @@ build/Week2/CTestTestfile.cmake
 build/Week2/ip_filter.exe
 build/Week2/libip_filter_lib.a
 build/Week2/test_filter.exe
+build/.cmake/api/v1/reply/codemodel-v2-c045f637b762946eee89.json
+build/.cmake/api/v1/reply/index-2023-01-31T16-35-39-0991.json
+build/.cmake/api/v1/reply/target-test_filter-Debug-2b6cda772af900bdc77e.json
+build/.cmake/api/v1/reply/target-test_version-Debug-b1dc528b2435a02203ed.json
